@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="买1"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:id="@+id/buyorsell_buy1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="-(0)"
+                android:textColor="@color/xinyusoft_trade_red_buy"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="买2"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:id="@+id/buyorsell_buy2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="-(0)"
+                android:textColor="@color/xinyusoft_trade_red_buy"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="买3"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:id="@+id/buyorsell_buy3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="-(0)"
+                android:textColor="@color/xinyusoft_trade_red_buy"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="买4"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:id="@+id/buyorsell_buy4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="-(0)"
+                android:textColor="@color/xinyusoft_trade_red_buy"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="买5"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:id="@+id/buyorsell_buy5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="-(0)"
+                android:textColor="@color/xinyusoft_trade_red_buy"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="卖1"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:id="@+id/buyorsell_sell1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="-(0)"
+                android:textColor="@color/xinyusoft_trade_green_sell"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="卖2"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:id="@+id/buyorsell_sell2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="-(0)"
+                android:textColor="@color/xinyusoft_trade_green_sell"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="卖3"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:id="@+id/buyorsell_sell3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="-(0)"
+                android:textColor="@color/xinyusoft_trade_green_sell"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="卖4"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:id="@+id/buyorsell_sell4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="-(0)"
+                android:textColor="@color/xinyusoft_trade_green_sell"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="卖5"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:id="@+id/buyorsell_sell5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="-(0)"
+                android:textColor="@color/xinyusoft_trade_green_sell"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

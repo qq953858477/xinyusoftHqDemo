@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zh_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xinyusoft_titlebar_size"
+        android:background="@color/trade_title_bg" >
+
+        <include layout="@layout/xinyusoft_include_back"/>
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp" >
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/buyorsell_title_btn"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/buyorsell_buy_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/buyorsell_title_btn_selector_left"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="预埋买"
+                    android:textColor="@color/my_white"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/buyorsell_sell_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/buyorsell_title_btn_selector_right"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="预埋卖"
+                    android:textColor="@color/xinyusoft_buyorsell_noaml_radiobtn"
+                    android:textSize="20sp" />
+            </RadioGroup>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:background="@color/zh_bg"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="账号："
+                    android:textColor="#a6a6a6"
+                    android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="模拟账号 134455500000"
+                    android:textColor="#a6a6a6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/my_white"
+                android:orientation="horizontal"
+                android:paddingBottom="13dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="股票代码"
+                    android:textColor="@color/xinyusoft_trade_font_color"
+                    android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@null"
+                    android:hint="请输入股票代码"
+                    android:textColorHint="#a9a9a9"
+                    android:textSize="@dimen/xinyusoft_trade_font_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cccccc" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/my_white"
+                android:orientation="horizontal"
+                android:paddingBottom="13dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp" >
+
+                <TextView
+                    android:id="@+id/TextView1_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="买入价格"
+                    android:textColor="@color/xinyusoft_trade_font_color"
+                    android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+                <EditText
+                    android:id="@+id/buyorsell_edit_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/TextView1_price"
+                    android:background="@null"
+                    android:hint="请输入买入价格"
+                    android:inputType="number"
+                    android:textColorHint="#a9a9a9"
+                    android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+                <LinearLayout
+                    android:id="@+id/buyorsell_ll_shijia_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toRightOf="@id/TextView1_price"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/xinyusoft_trade_radio2" />
+
+                    <TextView
+                        android:id="@+id/buyorsell_tv_shijia_ok"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="市价买入"
+                        android:textColor="@color/xinyusoft_trade_font_color"
+                        android:textSize="@dimen/xinyusoft_trade_font_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/buyorsell_ll_shijia_wait"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/xinyusoft_trade_radio" />
+
+                    <TextView
+                        android:id="@+id/buyorsell_tv_shijia_wait"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="市价买入"
+                        android:textColor="@color/xinyusoft_trade_font_color"
+                        android:textSize="@dimen/xinyusoft_trade_font_size" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cccccc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/my_white"
+                android:orientation="horizontal"
+                android:paddingBottom="13dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp" >
+
+                <TextView
+                    android:id="@+id/buyorsell_tv_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="买入数量"
+                    android:textColor="@color/xinyusoft_trade_font_color"
+                    android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+                <EditText
+                    android:id="@+id/buyorsell_et_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@null"
+                    android:hint="请输入买入数量"
+                    android:inputType="number"
+                    android:textColorHint="#a9a9a9"
+                    android:textSize="@dimen/xinyusoft_trade_font_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cccccc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="13dp"
+                android:paddingTop="13dp" >
+
+                <TextView
+                    android:id="@+id/buyorsell_tv_max"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="最大可买："
+                    android:textColor="@color/xinyusoft_trade_font_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="-"
+                    android:textColor="@color/xinyusoft_trade_font_color"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/buyorsell_xiadan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/buyorsell_buy_btn"
+                android:gravity="center"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:text="下     单"
+                android:textColor="@color/my_white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:text="请输入有效的证券代码"
+                android:textColor="@color/xinyusoft_trade_red_buy"
+                android:visibility="invisible" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#cccccc" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e7eaee"
+                android:paddingBottom="13dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="当前价："
+                    android:textColor="@color/xinyusoft_trade_font_color"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text="-"
+                    android:textColor="@color/xinyusoft_trade_font_color"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#cccccc" />
+
+            <include layout="@layout/xinyusoft_include_buyorsell" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

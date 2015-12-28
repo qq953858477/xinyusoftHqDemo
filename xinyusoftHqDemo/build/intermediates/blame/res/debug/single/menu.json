@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\menu\\chengjiao.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\menu\\chengjiao.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\menu\\select.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\menu\\select.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\menu\\history.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\menu\\history.xml"
+    }
+]

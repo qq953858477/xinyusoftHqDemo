@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zh_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xinyusoft_titlebar_size"
+        android:background="@color/trade_title_bg">
+
+        <include android:id="@+id/include_back" layout="@layout/xinyusoft_include_back" />
+
+        <RelativeLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/buyorsell_title_btn"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/trade_yinlian_tosecurity"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/buyorsell_title_btn_selector_left"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="银行转证券"
+                    android:textColor="@color/my_white"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/trade_yinlian_tobank"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/buyorsell_title_btn_selector_right"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="证券转银行"
+                    android:textColor="@color/xinyusoft_buyorsell_noaml_radiobtn"
+                    android:textSize="15sp" />
+            </RadioGroup>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/my_white"
+            android:orientation="horizontal"
+            android:paddingBottom="13dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="13dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="货币类型"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:hint="人民币"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/my_white"
+            android:orientation="horizontal"
+
+            android:paddingLeft="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="转账银行"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:entries="@array/bank" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/my_white"
+            android:orientation="horizontal"
+            android:paddingBottom="13dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="13dp">
+
+            <TextView
+                android:id="@+id/TextView1_price"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="转账金额"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <EditText
+                android:id="@+id/buyorsell_edit_price"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/TextView1_price"
+                android:background="@null"
+                android:hint="请输入转账金额"
+                android:inputType="number"
+                android:textColorHint="#a9a9a9"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/my_white"
+            android:orientation="horizontal"
+            android:paddingBottom="13dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="13dp">
+
+            <TextView
+                android:id="@+id/trade_yinlian_tv_pwd"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="银行密码"
+                android:textColor="@color/xinyusoft_trade_font_color"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+            <EditText
+                android:id="@+id/trade_yinlian_ed_pwd"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="请输入银行密码"
+                android:inputType="numberPassword"
+                android:textColorHint="#a9a9a9"
+                android:textSize="@dimen/xinyusoft_trade_font_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/trade_yinlian_btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/trade_ok_btn"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:text="确     定"
+            android:textColor="@color/my_white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/xinyusoft_trade_zhuanzhang"
+            android:gravity="center_vertical"
+            android:paddingBottom="12dp"
+            android:paddingTop="42dp"
+            android:text="通常交易时间为9:00到15:30，否则交易不成功。"
+            android:textColor="@color/xinyusoft_trade_red_buy" />
+
+    </LinearLayout>
+
+</LinearLayout>

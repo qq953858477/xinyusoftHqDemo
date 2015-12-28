@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\Android\app\xinyusoftHqDemo\xinyusoftHqDemo\build\intermediates\pre-dexed\debug\support-v4-19.1.0_73b9883bfda7e9a6ae205d0e99c174e73ba72aaa.jar" />
+    </item>
+    <item
+        jar="D:\Android\app\xinyusoftHqDemo\xinyusoftHqDemo\build\intermediates\exploded-aar\xinyusoftHqDemo\xinyusoftHqLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5df1feb74950b2751768995c828f6d4201f91455">
+        <dex dex="D:\Android\app\xinyusoftHqDemo\xinyusoftHqDemo\build\intermediates\pre-dexed\debug\xinyusoftHqDemo-xinyusoftHqLib-unspecified_74904f0e311d4ab74eddc8e13c562518dd9efccb.jar" />
+    </item>
+
+</items>

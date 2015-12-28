@@ -1,0 +1,2 @@
+include ':xinyusoftHqLib'
+include ':xinyusoftHqDemo'

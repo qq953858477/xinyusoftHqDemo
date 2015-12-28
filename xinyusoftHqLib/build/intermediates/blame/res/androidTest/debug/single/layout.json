@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_yumaidan.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_yumaidan.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_item_jiancang_listview.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_item_jiancang_listview.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_trade_jiancang.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_trade_jiancang.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_fragment_select.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_fragment_select.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_trade_chedan.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_trade_chedan.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_trade_buyorsell.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_trade_buyorsell.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_include_back.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_include_back.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_fragment_trade.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_fragment_trade.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_main.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_include_buyorsell.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_include_buyorsell.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_chic.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_chic.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_chengjiao.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_chengjiao.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_trade_yinlian.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_trade_yinlian.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_fragment_property.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_fragment_property.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_trade_qingcang.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_trade_qingcang.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_trade_cancel_yumai.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_trade_cancel_yumai.xml"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\xinyusoft_activity_history.xml",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqLib\\build\\intermediates\\bundles\\debug\\res\\layout\\xinyusoft_activity_history.xml"
+    }
+]

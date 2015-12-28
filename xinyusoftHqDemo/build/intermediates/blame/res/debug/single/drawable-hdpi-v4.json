@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_trade_qingcang.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_trade_qingcang.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_jiantou_right.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_jiantou_right.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_trade_yumaidan.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_trade_yumaidan.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_select_chengjiao.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_select_chengjiao.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_trade_zhuanzhang.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_trade_zhuanzhang.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_select_historyweituo.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_select_historyweituo.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_select_refresh.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_select_refresh.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_trade_tiaocang.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_trade_tiaocang.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_select_chichang.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_select_chichang.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_trade_buy_back.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_trade_buy_back.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_select_liushui.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_select_liushui.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_select_weituo.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_select_weituo.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_trade_quickbuy.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_trade_quickbuy.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_trade_radio2.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_trade_radio2.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_trade_chedan.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_trade_chedan.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_select_back.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_select_back.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_ic_launcher.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_trade_radio.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_trade_radio.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_select_bj.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_select_bj.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_trade_quicksell.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_trade_quicksell.png"
+    },
+    {
+        "merged": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\xinyusoft_select_history.png",
+        "source": "D:\\Android\\app\\xinyusoftHqDemo\\xinyusoftHqDemo\\build\\intermediates\\exploded-aar\\xinyusoftHqDemo\\xinyusoftHqLib\\unspecified\\res\\drawable-hdpi-v4\\xinyusoft_select_history.png"
+    }
+]

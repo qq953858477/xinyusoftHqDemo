@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/xinyusoft_titlebar_size"
+        android:background="@color/trade_title_bg">
+
+        <include
+            android:id="@+id/include_back"
+            layout="@layout/xinyusoft_include_back" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="清仓"
+            android:textColor="@color/my_white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="@color/zh_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号："
+            android:textColor="#a6a6a6"
+            android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模拟账号 134455500000"
+            android:textColor="#a6a6a6" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        android:background="@color/xinyusoft_chedan_listview_bg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="股票/代码"
+            android:textColor="@color/xinyusoft_trade_font_color"
+            android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="总数/可卖"
+            android:textColor="@color/xinyusoft_trade_font_color"
+            android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="现价/涨跌"
+            android:textColor="@color/xinyusoft_trade_font_color"
+            android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="清仓"
+            android:textColor="@color/xinyusoft_trade_font_color"
+            android:textSize="@dimen/xinyusoft_trade_font_size" />
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/trade_qingcang_lv"
+            android:layout_height="wrap_content"></ListView>
+        <TextView
+            android:id="@+id/trade_qingcang_tv_show"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="-暂无数据-"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/xinyusoft_qingcang_fenchenggu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/trade_ok_btn"
+        android:textColor="@color/my_white"
+        android:textSize="18sp"
+        android:text="一键清仓"/>
+
+</LinearLayout>

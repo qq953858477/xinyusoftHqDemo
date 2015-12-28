@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 获得焦点但未按下时的背景图片 -->
+    <item android:state_enabled="true" android:state_focused="true" android:state_pressed="false"><shape>
+            <solid android:color="@color/xinyusoft_buyorsell_title_select" />
+
+            <stroke android:width="2dp" android:color="#2f7bd3" />
+
+            <corners android:bottomLeftRadius="8dp" android:topLeftRadius="8dp" />
+        </shape></item>
+    <!-- 按下时的背景图片 -->
+    <item android:state_enabled="true" android:state_pressed="true"><shape>
+            <solid android:color="@color/xinyusoft_buyorsell_title_select" />
+
+            <stroke android:width="2dp" android:color="#2f7bd3" />
+
+            <corners android:bottomLeftRadius="8dp" android:topLeftRadius="8dp" />
+        </shape></item>
+    <!-- 按下时的背景图片 -->
+    <item android:state_checked="true" android:state_enabled="true"><shape>
+            <solid android:color="@color/xinyusoft_buyorsell_title_select" />
+
+            <stroke android:width="2dp" android:color="#2f7bd3" />
+
+            <corners android:bottomLeftRadius="8dp" android:topLeftRadius="8dp" />
+        </shape></item>
+
+    <!-- 默认时的背景图片 -->
+    <item><shape>
+            <solid android:color="@color/xinyusoft_buyorsell_title_nomal" />
+
+            <stroke android:width="2dp" android:color="#2f7bd3" />
+
+            <corners android:bottomLeftRadius="8dp" android:topLeftRadius="8dp" />
+        </shape></item>
+
+</selector>

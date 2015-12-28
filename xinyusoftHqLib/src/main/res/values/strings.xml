@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">xinyusoftHqLib</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="xinyusoft_trade_quickbuy">快速买入</string>
+    <string name="xinyusoft_trade_quicksell">快速卖出</string>
+    <string name="xinyusoft_trade_chedan">撤单</string>
+    <string name="xinyusoft_trade_yumaidan">预埋单</string>
+    <string name="xinyusoft_trade_qingcang">一键清仓</string>
+    <string name="xinyusoft_trade_zhuanzhang">银证转账</string>
+    <string name="xinyusoft_trade_jiancang">一键建仓/调仓</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_chengjiao">ChengjiaoActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+
+</resources>

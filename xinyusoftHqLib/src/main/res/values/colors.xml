@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#ff000000</color>
+    <color name="my_white">#FFFFFF</color>
+    <color name="my_black">#ff000000</color>
+    <color name="zh_bg">#eef2f6</color>
+    <color name="trade_line_bg">#e5e5e5</color>
+    <color name="trade_title_bg">#2e6bb1</color>
+    <color name="xinyusoft_buyorsell_title_nomal">#2e6bb1</color>
+    <color name="xinyusoft_buyorsell_title_select">#2f7bd3</color>
+    <color name="xinyusoft_trade_font_color">#17191e</color>
+    <color name="xinyusoft_trade_red_buy">#f63046</color>
+    <color name="xinyusoft_trade_green_sell">#0f6d0f</color>
+    <color name="xinyusoft_buyorsell_noaml_radiobtn">#83a0ca</color>
+    <color name="xinyusoft_chedan_listview_bg">#d9e6f3</color>
+
+</resources>
