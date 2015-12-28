@@ -35,7 +35,7 @@ public class MainActivity extends FragmentActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.xinyusoft_activity_main);
 		init();   //初始化24热hhg的ee65465464564553453ererewrwe4111111
-		//你好！
+		//你好！234
 		radiogroup.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 			
 			@Override
