@@ -1,6 +1,17 @@
 package com.xinyusoft.xinyusofthqlib;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import com.xinyusoft.xinyusofthqlib.R;
+import com.xinyusoft.xinyusofthqlib.adapter.MainAdapter;
+import com.xinyusoft.xinyusofthqlib.fragment.PropertyFragment;
+import com.xinyusoft.xinyusofthqlib.fragment.TradeFragment;
+import com.xinyusoft.xinyusofthqlib.fragment.SelectFragment;
+
+import android.app.Activity;
 import android.os.Bundle;
+import android.preference.Preference;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
@@ -10,14 +21,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
-
-import com.xinyusoft.xinyusofthqlib.adapter.MainAdapter;
-import com.xinyusoft.xinyusofthqlib.fragment.PropertyFragment;
-import com.xinyusoft.xinyusofthqlib.fragment.SelectFragment;
-import com.xinyusoft.xinyusofthqlib.fragment.TradeFragment;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends FragmentActivity {
 	private ViewPager viewpager;
@@ -35,7 +38,6 @@ public class MainActivity extends FragmentActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.xinyusoft_activity_main);
 		init();   //初始化24热hhg的ee
-
 
 		radiogroup.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 			
