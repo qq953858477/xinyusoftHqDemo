@@ -37,7 +37,7 @@ public class MainActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.xinyusoft_activity_main);
-		init();   //sdsad
+		init();   //sdsaddfsa
 		
 		radiogroup.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 			
