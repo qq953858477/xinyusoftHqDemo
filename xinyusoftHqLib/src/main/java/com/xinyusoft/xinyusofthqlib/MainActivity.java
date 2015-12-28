@@ -35,7 +35,7 @@ public class MainActivity extends FragmentActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.xinyusoft_activity_main);
 		init();   //初始化
-		
+
 		radiogroup.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 			
 			@Override
